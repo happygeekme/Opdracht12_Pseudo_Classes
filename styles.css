@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navcontainer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(21, 21, 87);
+}
+
+.navcontainer a {
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.searchbar {
+    margin: 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.currentPage {
+    background-color:grey;
+}
+
+li:first-child{
+    margin-right: auto;        
+}
+
+.navcontainer li:hover {
+    background-color: lightsteelblue;
+}
+
+.searchbar:focus {
+    border: 5px solid aquamarine;
+}
